@@ -398,6 +398,7 @@ img {
 }
 
 /* ================= Responsive Design End ================= */
+
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
@@ -407,8 +408,8 @@ img {
 
   .sidebar {
     width: 100%;
-    margin-right: 0;
     border-radius: 0.5rem;
+    margin-right: 0;
     padding: 0.75rem;
   }
 
@@ -442,6 +443,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
   }
 
   .sticky-nav {
@@ -455,3 +457,30 @@ img {
     justify-content: center;
   }
 }
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 0.5rem;
+  }
+
+  .sidebar {
+    padding: 0.5rem;
+  }
+
+  .music-player {
+    padding: 0.5rem;
+  }
+
+  .sticky-nav {
+    gap: 0.5rem;
+  }
+
+  .sticky-nav-options {
+    gap: 0.5rem;
+  }
+}
+
